@@ -10,3 +10,8 @@ Azure AppServices Deployment Slots
 - Language: C#
 - IDE: VS Code
 - Additional: Nuget package - Fluent
+
+## Task (MVP)
+1. Start stopped app service slot
+2. Swap to the newly started slot
+3. Stop the original slot

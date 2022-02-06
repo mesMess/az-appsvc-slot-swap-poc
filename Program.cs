@@ -21,6 +21,8 @@ using IHost host = Host.CreateDefaultBuilder(args)
     configurationRoot.GetSection(nameof(TransientFaultHandlingOptions))
                      .Bind(options);
 
+    // configurationRoot.get
+
     Console.WriteLine($"TransientFaultHandlingOptions.Enabled={options.Enabled}");
     Console.WriteLine($"TransientFaultHandlingOptions.AutoRetryDelay={options.AutoRetryDelay}");
 })
